@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Define as variáveis com os dados de conexão
+HOST="nome ou ip"
+USER="seu usuario"
+PASS="sua senha"
+
+# Executa o comando SSH com senha usando sshpass
+sshpass -p "$PASS" ssh "$USER"@"$HOST" 
+
